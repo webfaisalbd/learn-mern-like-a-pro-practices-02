@@ -1,18 +1,13 @@
-// Write my Javascript code!
-const students = [
+const myArray = [
   {
     name: 'John',
     age: 20,
   },
   {
-    name: 'Mohn',
+    name: 'Vohn',
     age: 30,
   },
 ];
-const totalAge = students.reduce((preV, cur) => {
-  preV = preV + cur.age;
-  return preV;
-}, 0);
-const averageOfAge = totalAge / students.length;
-console.log(totalAge);
-console.log(averageOfAge);
+console.log(myArray);
+const students = JSON.parse(myArray);
+console.log(students);
